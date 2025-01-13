@@ -45,20 +45,22 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Login page
+- Real time display of how many words have been written using Erasr
+- Text box with the erasing feature
+- Buttons to stop the erasing and to export the text
+- Ability to save text blocks to account
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Structure of the home/login page and the textbox page
+- **CSS** - Styling and animation of the live updates as well as the erasing process
+- **JS/React** - Reactivity for the textbox functionality and the buttons on the main page
+- **Service** - Use of API to convert .txt file to type of the user's choice
+- **DB/Login** - Collection of data on the amount each user has written.
+- **WebSocket** - Rendering of how much has been written using Erasr
 
 ## 🚀 AWS deliverable
 
