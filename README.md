@@ -26,7 +26,9 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Erasr is an online writing service with the goal of helping writers be more productive. The site will feature a text box with a prompt to begin writing. Once the user begins writing in the text box, they must continue to do so without stopping. If they stop for more than a certain amount of time, the site will begin to slowly delete what they have written.
+Erasr is an online writing service with the goal of helping writers be more productive. The site will feature a text box with a prompt to begin writing. Once the user begins writing in the text box, they must continue to do so without stopping. If they stop for more than a certain amount of time, the site will begin to slowly delete what they have written. 
+
+Once they are done writing, the site will offer them the ability to export what they have written to a file type of their choice, with the goal being that they may now work on revision.
 
 ### Design
 
