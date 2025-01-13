@@ -34,6 +34,8 @@ Once they are done writing, the site will offer them the ability to export what 
 
 The basic design of Erasr offers many future avenues of improvement. The site could be updated to allow users to share their Erasr text with one another, to offer feedback, to form Erasr-based writing groups, or even to work on a single Erasr block collaboratively.
 
+The site could also incorporate the usage of generative artificial intelligence to further assist writers in the productivity of their rough draft stage.
+
 ### Design
 
 ![Design image](IMG_9097.jpg)
