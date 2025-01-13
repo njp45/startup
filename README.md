@@ -30,6 +30,10 @@ Erasr is an online writing service with the goal of helping writers be more prod
 
 Once they are done writing, the site will offer them the ability to export what they have written to a file type of their choice, with the goal being that they may now work on revision.
 
+### Future Potential
+
+The basic design of Erasr offers many future avenues of improvement. The site could be updated to allow users to share their Erasr text with one another, to offer feedback, to form Erasr-based writing groups, or even to work on a single Erasr block collaboratively.
+
 ### Design
 
 ![Design image](IMG_9097.jpg)
