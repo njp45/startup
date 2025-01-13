@@ -1,4 +1,4 @@
-# Your startup name here
+# Your startup name here :3c
 
 [My Notes](notes.md)
 
