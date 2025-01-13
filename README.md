@@ -1,4 +1,4 @@
-# D: Your startup name here :3c
+# Erasr
 
 [My Notes](notes.md)
 
@@ -26,7 +26,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Erasr is an online writing service with the goal of helping writers be more productive. The site will feature a text box with a prompt to begin writing. Once the user begins writing in the text box, they must continue to do so without stopping. If they stop for more than a certain amount of time, the site will begin to slowly delete what they have written.
 
 ### Design
 
