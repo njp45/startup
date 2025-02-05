@@ -1,8 +1,20 @@
-p {
-  color: #853a3a;
-  font: 4px "Lucida Grande", Helvetica, sans-serif;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-div {
-  color: cornflowerblue;
+header {
+  flex: 0 80px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 calc(100vh - 160px);
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  flex: 0 80px;
 }
