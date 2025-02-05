@@ -18,3 +18,12 @@ main {
 footer {
   flex: 0 80px;
 }
+
+menu {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.nav-item {
+  padding: 0 1em;
+}
