@@ -39,7 +39,3 @@ menu {
 .label-text {
   color: var(--bs-secondary);
 }
-
-.required-asterisk {
-  color: var(--bs-danger);
-}
