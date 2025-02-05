@@ -35,14 +35,19 @@
         </li>
       </menu>
     </nav>
-    <hr />
   </header>
 
   <main class="container-fluid bg-white text-center">
     <h2>Log In</h2>
     <form method="get" action="write.html">
       <div class="input-group mb-1">
-        <input class="form-control" type="text" placeholder="Username" required />
+        <!-- <span class="label-text inner-label">
+          <slot name="label">
+            <span slot="label">Username</span>
+          </slot>
+          <span class="required-asterisk">*</span>
+        </span> -->
+        <input class="form-control required-placeholder" type="text" placeholder="Username" required />
       </div>
       <div class="input-group mb-1">
         <input class="form-control" type="password" placeholder="Password" required />

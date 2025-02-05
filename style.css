@@ -35,3 +35,11 @@ menu {
 .ghlink {
   padding: 0 1em;
 }
+
+.label-text {
+  color: var(--bs-secondary);
+}
+
+.required-asterisk {
+  color: var(--bs-danger);
+}
