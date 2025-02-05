@@ -24,6 +24,14 @@ menu {
   flex-direction: row !important;
 }
 
+.navbar-brand {
+  padding-left: 1em;
+}
+
 .nav-item {
+  padding-right: 1em;
+}
+
+.ghlink {
   padding: 0 1em;
 }
