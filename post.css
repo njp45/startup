@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 calc(100vh - 160px);
+  align-items: start;
+  justify-content: start;
+}
+
+p {
+  text-align: start !important;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row !important;
+}

@@ -2,7 +2,7 @@
   width: 800px !important;
 } */
 
-main form {
+form {
   display: flex;
   flex-direction: column;
   align-items: start;
