@@ -5,6 +5,9 @@
 main form {
   display: flex;
   flex-direction: column;
-  flex: 1;
   align-items: start;
+}
+
+.flex-textarea {
+  flex: 1 400px;
 }

@@ -7,16 +7,9 @@ header {
   flex: 0 80px;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  flex: 1 calc(100vh - 160px);
-  align-items: center;
-  justify-content: center;
-}
-
 footer {
   flex: 0 80px;
+  margin-bottom: 2em;
 }
 
 menu {
