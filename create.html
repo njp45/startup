@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <title>Erasr</title>
-    </head>
-    <body>
-        <header>
-            <h1>Erasr</h1>
-            <nav>
-                <menu>
-                    <li><a href="index.html">Login</a></li>
-                    <li><a href="write.html">Write</a></li>
-                    <li><a href="post.html">Post</a></li>
-                    <li><a href="read.html">Read</a></li>
-                    <li><a href="about.html">About</a></li>
-                </menu>
-            </nav>
-            <hr />
-        </header>
 
-        <main>
-            <h1>Create Account</h1>
-            <form method="get" action="write.html">
-                <div>
-                    <input type="text" placeholder="Username" />
-                </div>
-                <div>
-                    <input type="text" placeholder="Password" />
-                </div>
-                <div>
-                    <input type="text" placeholder="Confirm Password" />
-                </div>
-                <button type="submit">Create</button>
-            </form>
-        </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="create.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/d4d9afb473.js" crossorigin="anonymous"></script>
+  <title>Erasr</title>
+</head>
 
-        <footer>
-            <hr />
-            <span>Site <a href="https://github.com/njp45/startup" target="_blank" rel="noopener noreferrer">GitHub&#x1F517;</a></span>
-        </footer>
-    </body>
+<body>
+  <header>
+    <nav class="navbar bg-light navbar-light fixed-top">
+      <a class="navbar-brand" href="#">
+        <h2>Erasr</h2>
+      </a>
+      <menu class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="write.html">Write</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="post.html">Post</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="read.html">Read</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </menu>
+    </nav>
+  </header>
+
+  <main class="container-fluid bg-white text-center">
+    <h2>Create Account</h2>
+    <form method="get" action="write.html">
+      <div class="input-group mb-1">
+        <input class="form-control" type="text" placeholder="Username" required />
+      </div>
+      <div class="input-group mb-1">
+        <input class="form-control" type="text" placeholder="Password" required />
+      </div>
+      <div class="input-group mb-1">
+        <input class="form-control" type="text" placeholder="Confirm Password" required />
+      </div>
+      <button class="btn btn-primary" type="submit">Create</button>
+    </form>
+  </main>
+
+  <footer class="bg-white fixed-bottom">
+    <hr />
+    <span class="ghlink">Site <a href="https://github.com/njp45/startup" target="_blank"
+        rel="noopener noreferrer">GitHub <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a></span>
+  </footer>
+</body>
+
 </html>
