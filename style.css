@@ -32,3 +32,15 @@ menu {
 .label-text {
   color: var(--bs-secondary);
 }
+
+@media (max-width: 400px) {  
+  header {
+    display: none;
+  }
+}
+
+@media (max-height: 400px) {
+  header {
+    display: none;
+  }
+}
