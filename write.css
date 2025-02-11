@@ -3,11 +3,12 @@
 } */
 
 form {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: start;
 }
 
 .flex-textarea {
-  flex: 1 400px;
+  flex: 1;
 }
