@@ -1,6 +1,6 @@
-/* .large-textbox {
-  width: 800px !important;
-} */
+html, body {
+  height: 100%;
+}
 
 form {
   flex: 1;

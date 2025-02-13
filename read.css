@@ -1,3 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+main {
+  flex: 1 0 auto;
+  overflow-y: auto;
+  padding-top: 80px;
+}
+
 .user-text {
   text-align: start;
 }
