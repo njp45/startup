@@ -65,31 +65,31 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://startup.erasr.click).
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - Login, create, read, write, and post pages.
+- [x] **Proper HTML element usage** - Self explanatory.
+- [x] **Links** - Used links for the nav bar and the create account option.
+- [x] **Text** - Text in the about page and placeholder text on the read page.
+- [x] **3rd party API placeholder** - Placeholder for exporting converted file.
 - [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **Login placeholder** - Login page with required fields for username and password.
+- [x] **DB data placeholder** - Placeholder for how many words have been written by all users.
+- [x] **WebSocket placeholder** - Placeholder for how many words have been written by all users.
 
 ## 🚀 CSS deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [ ] **Navigation elements** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [ ] **Application elements** - I did not complete this part of the deliverable.
-- [ ] **Application text content** - I did not complete this part of the deliverable.
+- [x] **Header, footer, and main content body** - Header navbar, footer github link, and main content by page.
+- [x] **Navigation elements** - Plain styled navbar with active link functionality.
+- [x] **Responsive to window resizing** - Flexbox behavior where necessary and media queries to drop the header when necessary.
+- [x] **Application elements** - Textbox and button on the write page.
+- [x] **Application text content** - Plain styled user text posting.
 - [ ] **Application images** - I did not complete this part of the deliverable.
 
 ## 🚀 React part 1: Routing deliverable
