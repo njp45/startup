@@ -2,41 +2,58 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import { Login } from './login/login';
+import { Write } from './write/write';
+import { Post } from './post/post';
+import { Read } from './read/read';
+import { About } from './about/about';
+import { Create } from './create/create';
+
 export default function App() {
-  return <div className="body bg-light text-dark">
-    <header>
-      <nav className="navbar bg-light navbar-light">
-        <a className="navbar-brand" href="#">
-          <h2>Erasr</h2>
-        </a>
-        <menu className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link" href="index.html">Login</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="write.html">Write</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="post.html">Post</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="read.html">Read</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="about.html">About</a>
-          </li>
-        </menu>
-      </nav>
-    </header>
+  return (
+    <BrowserRouter>
+      <div className="body bg-light text-dark">
+        <header>
+          <nav className="navbar bg-light navbar-light">
+            <NavLink className="navbar-brand" to="/">
+              <h2>Erasr</h2>
+            </NavLink>
+            <menu className="navbar-nav">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/">Login</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="write">Write</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="post">Post</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="read">Read</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="about">About</NavLink>
+              </li>
+            </menu>
+          </nav>
+        </header>
 
-    <main className="container-fluid bg-white text-center">
-      App content goes here
-    </main>
+        <Routes>
+          <Route path="/" element={<Login />} exact />
+          <Route path="/write" element={<Write />} />
+          <Route path="/post" element={<Post />} />
+          <Route path="/read" element={<Read />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/create" element={<Create />} />
+        </Routes>
 
-    <footer className="bg-white">
-      <hr />
-      <span className="ghlink">Site <a href="https://github.com/njp45/startup" target="_blank"
-          rel="noopener noreferrer">GitHub <i className="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a></span>
-    </footer>
-  </div>;
+        <footer className="bg-white">
+          <hr />
+          <span className="ghlink">Site <NavLink to="https://github.com/njp45/startup" target="_blank"
+            rel="noopener noreferrer">GitHub <i className="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></NavLink></span>
+        </footer>
+      </div>
+    </BrowserRouter>
+  );
 }
