@@ -5,7 +5,7 @@ export function Login() {
   return (
     <main className="container-fluid bg-white text-center">
       <h2>Log In</h2>
-      <form method="get" action="write.html">
+      <form method="get" action="">
         <div className="input-group mb-1">
           <input className="form-control required-placeholder" type="text" placeholder="Username" required />
         </div>
